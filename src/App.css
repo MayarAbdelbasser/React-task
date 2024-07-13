@@ -1,0 +1,21 @@
+h1 {
+  font-weight: 700;
+  font-size: 48px;
+}
+.header span {
+  position: absolute;
+  background-color: #007bff;
+  width: 100px;
+  padding: 3px;
+  border-radius: 60px;
+  -webkit-border-radius: 60px;
+  -moz-border-radius: 60px;
+  -ms-border-radius: 60px;
+  -o-border-radius: 60px;
+}
+.product-container {
+  margin-top: 50px;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 12px;
+  display: grid;
+}
